@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+// normalize.css 各个浏览器样式统一
+// 按需初始化 ul, body, h1, h2 {}
+html,
+body,
+#root,
+#app {
+  height: 100%;
+}
+
+// 滚动条样式
+// 滚动条整体宽度
+::-webkit-scrollbar {
+  width: 8px;
+}
+// 滚动条滑槽样式
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+// 滚动条样式
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #ddd;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #999;
+}
+// 浏览器失焦的样式
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 0, 0, 0.4);
+}
