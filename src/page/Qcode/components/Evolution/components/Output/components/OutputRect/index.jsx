@@ -49,7 +49,7 @@ export default function OutputRect(props) {
           stroke="black"
         ></line>
       </g>
-      {/* {props.basesData.related_bases[0]? <g transform="translate(50)">
+      {props.basesData.related_bases[0]? <g transform="translate(50)">
         <rect
           width={20}
           height={20}
@@ -77,7 +77,7 @@ export default function OutputRect(props) {
           y2={lineY}
         ></line>
       </g>:''}
-      */}
+     
       <rect
         width={20}
         height={20}

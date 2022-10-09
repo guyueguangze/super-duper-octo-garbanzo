@@ -2,7 +2,7 @@ import React from 'react'
 import OutputRect from './components/OutputRect'
 export default function Output(props) {
     // console.log(props, 'output')
-    let basesData =[0]
+    let basesData =[]
     if (props.outputData){
       basesData = props.outputData.bases
     }
